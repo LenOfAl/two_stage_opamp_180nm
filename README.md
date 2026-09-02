@@ -20,6 +20,14 @@ Course project for **EE517 Analog VLSI Lab**, Department of EEE, IIT Guwahati.
 | Output swing (differential p-p) | ≥ 800 mV<sub>pp</sub> |
 | Power consumption | ≤ 1 mW |
 
+## Physical verification
+
+The common-centroid layout was signed off in Calibre:
+
+- **DRC** — clean, no design-rule violations
+- **LVS** — clean, layout matches schematic
+- **PEX** — parasitics extracted and the extracted netlist re-simulated
+
 ## Results — pre- vs post-layout
 
 Parasitic extraction was run on the common-centroid layout and the extracted
